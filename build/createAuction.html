@@ -150,6 +150,14 @@
     border: solid 1px #c3c3c3;
 }
 
+#steps{
+color:white;
+font-weight:bold;
+text-decoration: underline;
+}
+
+
+
 #panel {
     padding: 50px;
     display: none;
@@ -741,6 +749,8 @@ color:black;
 		<form >
 			
         <div class="roww">
+				<br><br><a href="#0" id="steps" onclick="showsteps()">Click here: Steps to Create Auction</a>
+
           <br><br>
             <span>
               <input class="skinny" id="nameToReserve" type="text"  placeholder="mysite.eth" /><label for="english">Name to Reserve</label>
@@ -816,7 +826,7 @@ color:black;
   
   
   
-            <h1 align="center"> My winning Auctions</h1>
+            <h1 align="center"> Your winning Auctions</h1>
             <!-- <span id="userAuctions"></span> -->
             
             <table class="table" align="center" style="font-size: 25px">
